@@ -1,6 +1,5 @@
 # code your #valid_move? method here
 def valid_move?
-  input = gets.strip.to_i 
   if input > 8 || input < 0 
     return false 
   end
